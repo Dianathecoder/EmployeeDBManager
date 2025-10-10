@@ -11,14 +11,14 @@ public class Employee {
     private int id;
     private String name;
     private int age;
-    private String department;
+    private String flat;
     private double salary;
 
-    public Employee(int id, String name, int age, String department, double salary) {
+    public Employee(int id, String name, int age, String flat, double salary) {
         this.id = id;
         this.name = name;
         this.age = age;
-        this.department = department;
+        this.flat = flat;
         this.salary = salary;
     }
 
@@ -48,11 +48,11 @@ public class Employee {
     }
 
     public String getDepartment() {
-        return department;
+        return flat;
     }
 
     public void setDepartment(String department) {
-        this.department = department;
+        this.flat = flat;
     }
 
     public double getSalary() {
@@ -66,6 +66,6 @@ public class Employee {
     @Override
     public String toString() {
         return "Name: " + name + ", Age: " + age +
-               ", Department: " + department + ", Salary: " + salary;
+               ", Department: " +flat + ", Salary: " + salary;
     }
 }

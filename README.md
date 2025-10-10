@@ -10,8 +10,10 @@ The project allows you to **add, update, delete, and list employees** from a dat
 - **Add Employee** – Insert new employees into the database.  
 - **Update Employee** – Modify existing employee information.  
 - **Delete Employee** – Remove employees from the database.  
-- **List Employees** – Display all employee records.  
+- **List Employees** – Display all employee records.
+- **GUI (Swing)** – User-friendly graphical interface for managing employees.**
 - **Console Menu** – Easy-to-use interactive menu for managing employees.
+- **Interface Chooser** – Select GUI or console at program start
 
 ---
 
@@ -46,14 +48,32 @@ Handles database operations:
   - **List Employees** – Display all employee records.  
 - Provides a **console menu** for easy interaction.
 
+
+### Views (Swing GUI)
+The project includes a Swing-based graphical interface for easier user interaction:
+
+- **EmployeeMenu.java** – Main menu for the GUI with buttons to navigate between views.
+- **EnterEmployee.java** – Form to add new employees.
+- **UpdateEmployee.java** – Form to update existing employees.
+- **DeleteEmployee.java** – Form to delete employees by ID.
+- **ListEmployee.java** – Displays all employees in a scrollable list.
+
+The GUI allows users to perform all CRUD operations without using the console.
+
 ### Main
 Runs the **interactive console menu** to manage employees.
 
+### Choose.AppLauncher
+
+Allows the user to choose which interface to run:
+GUI (Swing) – Opens EmployeeMenu.
+
+Console – Runs the text-based menu (Menu.Main).
 ---
 
 ## Usage
 
-1. Run the `main` method in `GestionBBDD.java`.  
+1. Run the "main" method in "GestionBBDD.java".  
 2. Use the menu to:  
    - Add new employees.  
    - Update existing employees by ID.  

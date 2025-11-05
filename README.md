@@ -29,11 +29,11 @@ The project allows you to **add, update, delete, and list employees** from a dat
 
 ### Employee
 Represents an employee with the following attributes:  
-- `id` (int)  
-- `name` (String)  
-- `age` (int)  
-- `department` (String)  
-- `salary` (double)  
+- id(int)  
+- name (String)  
+- age (int)  
+- department (String)  
+- salary (double)  
 
 Includes a **constructor**, **getters**, **setters**, and a **toString method**.
 
